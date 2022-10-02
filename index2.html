@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round2</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #c {
+        width: 200px;
+        aspect-ratio: 1;
+        background-color: #FF0000;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+
+    #c::after{
+        content: ' ';
+        display: block;
+        width: 120px;
+        height: 400px;
+        background-color: #4D4D4D;
+        position: absolute;
+        top: 40%;
+        left: 140px;
+        transform: rotate(-30deg);
+        border-radius: 100px;
+        z-index: -1;
+
+    }
+</style>
+
+<body>
+    <div id="c"></div>
+
+</body>
+<script>
+
+</script>
+
+</html>
